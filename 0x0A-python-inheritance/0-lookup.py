@@ -2,8 +2,5 @@
 """Defines a lookup function"""
 
 def lookup(obj):
-    """
-    Return a list of obj attrributes
-    obj: an instant of a class
-    """
+    """Return a list of obj attrributes"""
     return (dir(obj))
